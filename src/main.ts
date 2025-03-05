@@ -2,7 +2,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+//@ts-ignore
 import App from './App.vue'
 import router from './router'
 // GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '1234!' WITH GRANT OPTION;

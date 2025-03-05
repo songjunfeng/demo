@@ -32,4 +32,4 @@ jobs:
           SOURCE: 'dist/'         # 构建产物目录
           REMOTE_USER: deployer  # 使用专用用户
           TARGET: '/var/www/project'
-          ARGS: '-avz --chown=deployer:deployer --delete'  # 强制所有权
+           ARGS: '-avz --delete'

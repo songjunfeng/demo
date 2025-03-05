@@ -29,7 +29,7 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{  secrets.SERVER_PASSWORD }}
           REMOTE_HOST: 1.92.104.142
-          SOURCE: 'dist/'         # 构建产物目录
-          REMOTE_USER: deployer  # 使用专用用户
-          TARGET: '/var/www/project'
-          ARGS: '-avz --delete'
+          REMOTE_USER: deployer
+          SOURCE: dist/
+          TARGET: /var/www/project
+          ARGS: '-avz --no-perms --chown=deployer:deployer --delete'

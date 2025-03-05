@@ -8,7 +8,7 @@ import router from './router'
 // GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '1234!' WITH GRANT OPTION;
 // 'MyP@ssw0rd!
 // ALTER USER 'root'@'%' IDENTIFIED BY '1234';
-let a = 123
+let a = 1236
 const app = createApp(App)
 app.use(ElementPlus)
 app.use(createPinia())
